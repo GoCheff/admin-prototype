@@ -66,3 +66,18 @@ body *{
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
+
+.a {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background:  #563f8d;
+}
+
+.a div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
