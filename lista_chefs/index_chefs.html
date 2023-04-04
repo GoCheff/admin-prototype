@@ -19,7 +19,7 @@
             <div class="box-lista">
                 <body>
                     <main>
-                        <div class="a">
+                        <div class="a" id="chef1">
                             <div>
                                 <a href="assets/curriculo.png" target="_blank" class="text">Anexos</a>
                             </div>
@@ -33,11 +33,11 @@
                             </div>
                             <div>
                                 <button onclick="alert('Perfil de Chef aprovado com Sucesso!')">Aprovar</button>
-                                <button>Reprovar</button>
+                                <button onclick="deletarChef1();alert('Perfil de Chef recusado com Sucesso!')" id="reprovar_button1">Reprovar</button>
                             </div>
                         </div>
 
-                        <div class="a">
+                        <div class="a" id="chef2">
                             <div>
                                 <a href="assets/curriculo.png" target="_blank" class="text">Anexos</a>
                             </div>
@@ -51,11 +51,11 @@
                             </div>
                             <div>
                                 <button onclick="alert('Perfil de Chef aprovado com Sucesso!!')">Aprovar</button>
-                                <button>Reprovar</button>
+                                <button onclick="deletarChef2();alert('Perfil de Chef recusado com Sucesso!')" id="reprovar_button2">Reprovar</button>
                             </div>
                         </div>
 
-                        <div class="a">
+                        <div class="a" id="chef3">
                             <div>
                                 <a href="assets/curriculo.png" target="_blank" class="text">Anexos</a>
                             </div>
@@ -69,11 +69,11 @@
                             </div>
                             <div>
                                 <button onclick="alert('Perfil de Chef aprovado com Sucesso!')">Aprovar</button>
-                                <button>Reprovar</button>
+                                <button onclick="deletarChef3();alert('Perfil de Chef recusado com Sucesso!')" id="reprovar_button3">Reprovar</button>
                             </div>
                         </div>
 
-                        <div class="a">
+                        <div class="a" id="chef4">
                             <div>
                                 <a href="assets/curriculo.png" target="_blank" class="text">Anexos</a>
                             </div>
@@ -87,11 +87,41 @@
                             </div>
                             <div>
                                 <button onclick="alert('Perfil de Chef aprovado com Sucesso!')">Aprovar</button>
-                                <button>Reprovar</button>
+                                <button onclick="deletarChef4();alert('Perfil de Chef recusado com Sucesso!')" id="reprovar_button4">Reprovar</button>
                             </div>
                         </div>
 
                     </main>
+
+                    <script> function deletarChef1(){
+
+                        const chef1 = document.getElementById("chef1");
+                        chef1.remove();
+
+                    } </script>
+
+                     <script> function deletarChef2(){
+
+                        const chef2 = document.getElementById("chef2");
+                        chef2.remove();
+
+                    } </script>
+                    
+                    <script> function deletarChef3(){
+
+                        const chef3 = document.getElementById("chef3");
+                        chef3.remove();
+
+                    } </script>
+                    
+                    <script> function deletarChef4(){
+
+                        const chef4 = document.getElementById("chef4");
+                        chef4.remove();
+
+                    } </script>
+                    
+
                 </body>
                 <style>
                     main {
