@@ -73,7 +73,7 @@ body *{
     height: 50%;
     justify-content: space-around;
     align-items: center;
-    padding: 32px;
+    padding: 28px;
     background:  #563f8d;
     gap: 20px;
 }
