@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
 
-.header {
-
+.header {    
     
     justify-content: center;
     align-items: center;
     width: 100%;
     display: flex;
     background-color: #FFCB83;
-
 }
+
 .list-title {
     justify-content: center;
     align-items: center;
@@ -22,7 +21,6 @@
       }
 
 .logo{
-
         width: 240px;
         height: 210px;
     }
@@ -31,37 +29,41 @@ body {
     margin: 0;
     font-family:'Inter', sans-serif;
 }
+
 body *{
     box-sizing: border-box;
 }
+
 .main-lista{
+
     width: 100%;
     height: 70%;
     background-color: #FFCB83;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 0;
 }
 
 .right-lista{
+
     width: 80vw;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-
 }
 
 .box-lista{
+
     width: 60%;
-    height: 70%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 35px;
-    background: #7e6641;
+    background: #FFFAFA;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -74,21 +76,44 @@ body *{
     align-items: center;
     padding: 28px;
     background:  #FFFAFA;
-    gap: 20px;
+    gap: 60px;
 }
 
+.placeholder_listheader {
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 114px;
+}
+
+.text_header{
+
+    color: #000000;
+    font-weight: 800;
+    font-size: large;
+}
+
+
 .a div:last-of-type {
+
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
 .text {
-
-
-        color: #000000;
+        color: #7e6641;
         font-weight: 800;
-    
+        font-size: large;
+}
 
-
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #D68606;
+    border-color: #7e6641;
+    color: #FFFAFA;
+    box-shadow: 0px 10px 40px #00000056;
 }
