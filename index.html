@@ -1,33 +1,37 @@
- <html lang="pt-br">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-	<title>GoCheff - Login Admin</title>
+    <title>Login</title>
 </head>
+
 <body>
-    <div class="header">
-    <h1 class="titulo_header"> LOGIN - ADMINISTRADOR </h1>
-    </div>
     <div class="main-login">
 
-        <div class="right-login">
+        <div class="left-login">
+            <img src="img/logo.png" alt="Chef animação" class="left-login-image">
+        </div>
+        <div class="rigth-login">
             <div class="card-login">
-                <img src="lista_chefs/assets/logo.png" class="logo" alt="Logo GoCheff">
-                <div class="textfield">
+                <h1>LOGIN ADMINISTRADOR</h1>
+                <div class="textfild">
 
-                <label for="usuario">Usuário</label>
-                <input type="text" id="username" name="usuario" placeholder="admin@gocheff.com">
-                </div>   
-                <div class="textfield">
-                <label for="senha">Senha</label>
-                <input type="password" id="password" name="senha" placeholder="Senha">
-                <button class="btn-login" onclick="window.location.href = 'lista_chefs/index_chefs.html';">Login</button>
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="admin@gocheff.com">
+
+                </div>
+                <div class="textfild">
+
+                    <label for="usuario">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+
                 </div>
 
-                
-
+                <input class="btn-login" id="btnhome" type="button" value="Login" onclick="window.location.href = 'lista_chefs/index_chefs.html';"><br>
+                <script src="index.js"></script>
 
             </div>
 
@@ -35,4 +39,5 @@
 
     </div>
 </body>
+
 </html>
